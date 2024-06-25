@@ -4,3 +4,21 @@
 # Compile of pr.vhd failed with 2 errors.
 # Compile of test_pr.vhd was successful.
 # 2 compiles, 1 failed with 2 errors.
+# Compile of pr.vhd failed with 1 errors.
+# Compile of test_pr.vhd was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of pr.vhd was successful.
+# Compile of test_pr.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.testbench -t 10ns
+# vsim -gui work.testbench -t 10ns 
+# Start time: 11:03:16 on Jun 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.testbench(stimulus)
+# Loading work.pr(rtl)
+# ** Warning: (vsim-3479) Time unit 'ns' is less than the simulator resolution (10ns).
+#    Time: 0 ns  Iteration: 0  Root: /
