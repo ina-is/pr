@@ -59,3 +59,36 @@ do vsim.do
 # ns
 # 1000ns
 # .main_pane.objects.interior.cs.body.tree .main_pane.wave.interior.cs.body.pw.wf
+# Compile of pr.vhd was successful.
+# Compile of test_pr.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.testbench -t 10ns
+# End time: 11:20:31 on Jun 25,2024, Elapsed time: 0:04:55
+# Errors: 0, Warnings: 2
+# vsim work.testbench -t 10ns 
+# Start time: 11:20:31 on Jun 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.testbench(stimulus)
+# Loading work.pr(rtl)
+# ** Warning: (vsim-3479) Time unit 'ns' is less than the simulator resolution (10ns).
+#    Time: 0 ns  Iteration: 0  Root: /
+do vsim.do
+# End time: 11:20:38 on Jun 25,2024, Elapsed time: 0:00:07
+# Errors: 0, Warnings: 2
+# vsim work.testbench 
+# Start time: 11:20:39 on Jun 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.testbench(stimulus)
+# Loading work.pr(rtl)
+# hexadecimal
+# ns
+# 1000ns
+# .main_pane.objects.interior.cs.body.tree .main_pane.wave.interior.cs.body.pw.wf
