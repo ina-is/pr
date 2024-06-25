@@ -20,10 +20,11 @@ begin
 
 PRi : process(CLK, RESET)
     begin
-
-
-
-
+    if (RESET = '0') then
+        PRreg <= (others => 0);
+    elsif (CLK'event and CKL = '1') then
+        PReg <= PRin;
+    end if;
 
     end process;
     
