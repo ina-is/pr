@@ -1,18 +1,9 @@
-# Compile of pr.vhd failed with 5 errors.
-# Compile of test_pr.vhd was successful.
-# 2 compiles, 1 failed with 5 errors.
-# Compile of pr.vhd failed with 2 errors.
-# Compile of test_pr.vhd was successful.
-# 2 compiles, 1 failed with 2 errors.
-# Compile of pr.vhd failed with 1 errors.
-# Compile of test_pr.vhd was successful.
-# 2 compiles, 1 failed with 1 error.
 # Compile of pr.vhd was successful.
 # Compile of test_pr.vhd was successful.
 # 2 compiles, 0 failed with no errors.
 vsim -gui work.testbench -t 10ns
 # vsim -gui work.testbench -t 10ns 
-# Start time: 11:03:16 on Jun 25,2024
+# Start time: 11:10:43 on Jun 25,2024
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -22,3 +13,49 @@ vsim -gui work.testbench -t 10ns
 # Loading work.pr(rtl)
 # ** Warning: (vsim-3479) Time unit 'ns' is less than the simulator resolution (10ns).
 #    Time: 0 ns  Iteration: 0  Root: /
+do vsim.do
+# End time: 11:11:09 on Jun 25,2024, Elapsed time: 0:00:26
+# Errors: 0, Warnings: 3
+# vsim work.testbench 
+# Start time: 11:11:09 on Jun 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.testbench(stimulus)
+# Loading work.pr(rtl)
+# hexadecimal
+# ns
+# 1000ns
+# .main_pane.objects.interior.cs.body.tree .main_pane.wave.interior.cs.body.pw.wf
+vsim work.testbench -t 100ns
+# End time: 11:15:27 on Jun 25,2024, Elapsed time: 0:04:18
+# Errors: 0, Warnings: 1
+# vsim work.testbench -t 100ns 
+# Start time: 11:15:27 on Jun 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.testbench(stimulus)
+# Loading work.pr(rtl)
+# ** Warning: (vsim-3479) Time unit 'ns' is less than the simulator resolution (100ns).
+#    Time: 0 ns  Iteration: 0  Root: /
+do vsim.do
+# End time: 11:15:36 on Jun 25,2024, Elapsed time: 0:00:09
+# Errors: 0, Warnings: 2
+# vsim work.testbench 
+# Start time: 11:15:36 on Jun 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.testbench(stimulus)
+# Loading work.pr(rtl)
+# hexadecimal
+# ns
+# 1000ns
+# .main_pane.objects.interior.cs.body.tree .main_pane.wave.interior.cs.body.pw.wf

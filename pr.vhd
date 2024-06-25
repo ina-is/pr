@@ -20,9 +20,9 @@ begin
 
 PRi : process(CLK, RESET)
     begin
-    if (RESET = '0') then
+    if(RESET = '0')then
         PReg <= (others => '0');
-    elsif (CLK'event and CLK = '1') then
+    elsif(CLK'event and CLK='1')then
         PReg <= PRin;
     end if;
 
