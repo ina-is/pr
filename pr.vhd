@@ -21,7 +21,7 @@ begin
 PRi : process(CLK, RESET)
     begin
     if (RESET = '0') then
-        PRreg <= (others => 0);
+        PReg <= (others => 0);
     elsif (CLK'event and CLK = '1') then
         PReg <= PRin;
     end if;
